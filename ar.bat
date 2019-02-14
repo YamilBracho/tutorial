@@ -7,7 +7,7 @@ rem ngh -no-silent
 echo "#Prueba de Angular" >> README.md
 git init
 git add .
-git commit -m "first commit"
+git commit -m "Prueba de Commit"
 git remote add origin https://github.com/yamilbracho/tutorial.git
 git push -u origin master
 
