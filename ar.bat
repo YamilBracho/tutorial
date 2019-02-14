@@ -9,6 +9,6 @@ git init
 git add .
 git commit -m "Prueba de Commit"
 rem git remote add origin https://github.com/yamilbracho/tutorial.git
-git push -u origin master
+git push -u --force origin master
 
 
