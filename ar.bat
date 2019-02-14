@@ -4,7 +4,7 @@ REM Build Project
 rem ng build --prod --base-href https://yamilbracho.github.io/tutorial/ 
 REM Publish app
 rem ngh -no-silent
-echo "#Prueba de Angular" >> README.md
+rem echo "#Prueba de Angular" >> README.md
 git init
 git add .
 git commit -m "Prueba de Commit"
