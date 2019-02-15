@@ -16,17 +16,17 @@ module.exports = function (config) {
       clearContext: false // leave Jasmine Spec Runner output visible in browser
     },
 	browsers: ['ChromeHeadless', 'Chrome'],
-	 // customLaunchers: {
-	   // ChromeHeadless: {
-	     // base: 'Chrome',
-	     // flags: [
+	  customLaunchers: {
+	    ChromeHeadless: {
+	      base: 'Chrome',
+	      flags: [
 	       // '--headless',
 	       // '--disable-gpu',
-	       // '--no-sandbox',
+	        '--no-sandbox',
 	       // '--remote-debugging-port=9222'
-	     // ]
-	   // }
-	// },	
+	      ]
+	    }
+	},	
     coverageIstanbulReporter: {
       dir: require('path').join(__dirname, '../coverage/tutorial'),
       reports: ['html', 'lcovonly', 'text-summary'],
