@@ -15,13 +15,13 @@ module.exports = function (config) {
     client: {
       clearContext: false // leave Jasmine Spec Runner output visible in browser
     },
-	browsers: ['ChromeHeadless'],
+	browsers: ['ChromeHeadlessNoSandbox'],
 	  customLaunchers: {
-	    ChromeHeadless: {
-	      base: 'Chrome',
+	    ChromeHeadlessNoSandbox: {
+	      base: 'ChromeHeadless',
 	      flags: [
-	        '--headless',
-	        '--disable-gpu',
+	        //'--headless',
+	        //'--disable-gpu',
 	        '--no-sandbox',
 	       // '--remote-debugging-port=9222'
 	      ]
@@ -41,3 +41,4 @@ module.exports = function (config) {
     singleRun: false
   });
 };
+
