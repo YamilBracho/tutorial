@@ -41,6 +41,3 @@ module.exports = function (config) {
     singleRun: false
   });
 };
-
-
-npm install karma-chrome-launcher --save-dev
