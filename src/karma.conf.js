@@ -20,8 +20,8 @@ module.exports = function (config) {
 	    ChromeHeadless: {
 	      base: 'Chrome',
 	      flags: [
-	       // '--headless',
-	       // '--disable-gpu',
+	        '--headless',
+	        '--disable-gpu',
 	        '--no-sandbox',
 	       // '--remote-debugging-port=9222'
 	      ]
