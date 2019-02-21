@@ -28,6 +28,18 @@ module.exports = function (config) {
 	    // }
 	// },	
 	browsers: ['ChromeHeadless'],
+	   customLaunchers: {
+	     ChromeHeadless: {
+	      // base: 'ChromeHeadless',
+	       flags: [
+	        '--headless',
+	      //  '--disable-gpu',
+	       '--no-sandbox',
+	      // '--remote-debugging-port=9222'
+	       ]
+	     }
+	 },	
+	
     coverageIstanbulReporter: {
       dir: require('path').join(__dirname, '../coverage/tutorial'),
       reports: ['html', 'lcovonly', 'text-summary'],
