@@ -20,10 +20,10 @@ module.exports = function (config) {
 	    // ChromeHeadlessNoSandbox: {
 	      // base: 'ChromeHeadless',
 	      // flags: [
-	        '--headless',
-	        '--disable-gpu',
-	        // '--no-sandbox',
-	       '--remote-debugging-port=9222'
+	      //  '--headless',
+	      //  '--disable-gpu',
+	      // '--no-sandbox',
+	      // '--remote-debugging-port=9222'
 	      // ]
 	    // }
 	// },	
